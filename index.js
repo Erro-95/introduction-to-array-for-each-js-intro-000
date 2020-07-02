@@ -1,5 +1,7 @@
 function doToElementsInArray(array, callback){
-  return array.forEach(callback)
+  array.forEach(callback)
 }
 
-function changeCompletely(array, )
+function changeCompletely(element, index, array){
+  
+}
