@@ -3,5 +3,5 @@ function doToElementsInArray(array, callback){
 }
 
 function changeCompletely(element, index, array){
-  
+  array[index] = Math.floor(Math.random() * array.length -1)
 }
